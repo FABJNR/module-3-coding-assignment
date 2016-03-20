@@ -2,7 +2,6 @@ body {
 	font-size: 16px;
 	color: #61122f;	
 	font-family: 'Oxygen', sans-serif;
-	padding-top: 70px;
 }
 
 /** HEADER **/
@@ -53,7 +52,7 @@ body {
 
 /** MAIN CONTENT **/
 #menu-categories-tile{
-	margin: 20px 0px;
+	margin: 0px 0px 20px;
 }
 
 .menu-item-description {
@@ -80,17 +79,9 @@ h3.menu-item-title {
 		font-size: 5vw; /* 1vw = 1% of viewport width */
 	}
 
-	#collapsable-nav {
-		background-color: #557c3e;
-	}
-
 	#collapsable-nav a { /* Collapsed nav menu text */
-		color: #f6b319;
+		/*color: #f6b319;*/
 		font-size: 1.2em;
-	}
-
-	#nav-list a:hover {
-		background: #61122f;
 	}
 	/* HEADER */
 }
